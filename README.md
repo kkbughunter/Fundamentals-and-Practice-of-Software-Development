@@ -1,4 +1,4 @@
-# UCS2201---Fundamentals-and-Practice-of-Software-Development
+# UCS2201---Fundamentals-and-Practice-of-Software-Development-code
 
 ## C Program
 1)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/C_Assignment_2)
