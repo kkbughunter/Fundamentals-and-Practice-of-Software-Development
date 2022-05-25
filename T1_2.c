@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	printf("A for Addition\nS for ubraction\nM for Multiolication\nD for Division \n       q for exit\n\n");
+	printf("A for Addition\nS for subtraction\nM for Multiplication\nD for Division \n       q for exit\n\n");
 	char opt;
 	float a, b;
 	while (1){
@@ -39,7 +39,7 @@ int main()
 			}
 		}
 		else{
-			printf("\nEnter the valide Input\n\n");
+			printf("\nEnter the valid Input\n\n");
 		}
 	}
 	return 0;
