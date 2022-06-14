@@ -20,7 +20,7 @@ int checkoddoreven(int num)
 int main()
 {
     int n=10,result;
-   
+    printf("To find ODD or EVEN");
     printf("enter the number:");scanf("%d",&n);
     result=checkoddoreven(n);
     
