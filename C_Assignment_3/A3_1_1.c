@@ -20,18 +20,20 @@ int checkoddoreven(int num)
 int main()
 {
     int n=10,result;
-    printf("To find ODD or EVEN");
+    printf("\n\tFind ODD or EVEN number \n");
+    loop:
     printf("enter the number:");scanf("%d",&n);
     result=checkoddoreven(n);
     
     if (result ==  1){
-        printf("it is an even number");
+        printf("%d is even number\n",n);
     }
     else if(result == 0){
-        printf("it is an odd number");
+        printf("%d is odd number\n",n);
     }
     else if(result == -1){
-        printf("enter positive number");
+        printf(":( Enter positive number\n");
+        goto loop;
     }
     else{
         printf(" ");
@@ -39,3 +41,6 @@ int main()
 
     return 0;
 }
+
+
+
