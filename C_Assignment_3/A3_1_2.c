@@ -22,7 +22,7 @@ int main()
         printf("enter the number:");scanf("%d",&n);
         if (n%2 == 0)result1 = sum_even(n);
         if (n%2 == 1)result2 = sum_odd(n);
-        if (n <= 0)break;
+        if (n < 0)break;
     }
     printf("sum of EVEN numbers = %d\n",result1); 
     printf("sum of ODD numbers = %d\n9",result2); 
