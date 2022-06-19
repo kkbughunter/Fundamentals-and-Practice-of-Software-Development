@@ -1,25 +1,23 @@
-// Question 2
 #include<stdio.h>
-int Add_Dig(int n);
+int fun(int num);
 
-int Add_Dig(int n)
-{
-    int sum = 0;
-    while(n>0){
-        sum = sum + (n % 10 );
-        n = n / 10;
-    }
-    return sum;
+int fun(int num){
+	int n=0,sum=0;
+	if (num == 0)
+		return 0;
+	else{
+		n = num %10;
+		return sum = n + fun(num/10);
+	}
+	
 }
 
 
 int main()
 {
-    int n;
-    printf("Enter the numbers : ");scanf("%d",&n);
-    
-    n = Add_Dig(n);
-    printf("\nSum of digits : %d\n\n",n);
-    return 0;
+	int num=0;
+	printf("Enter the number : ");scanf("%d",&num);
+	num = fun(num);
+	printf("%d",num);
+	return 0;
 }
-
