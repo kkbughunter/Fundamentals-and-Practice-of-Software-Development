@@ -17,15 +17,13 @@ int main()
 		a = arr[i];
 		harr[a]+=1;
 	}
-
-	
+//output field
+	for (i=1; i<=9; i++){
+		for (j=0; j<harr[i];j++){
+			printf("*");
+		}
+		printf("\n");
+	}
 	
 	return 0;
 }
-//output 
-//for (i=1; i<=9; i++){
-//		for (j=0; j<harr[i];j++){
-//			printf("*");
-//		}
-//		printf("\n");
-//	}
