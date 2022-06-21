@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main()
-{
+void fun(){
 	int count=0,i=0,j=0;
 	printf("Enter the Number : ");scanf("%d",&count);
 	int arr[count+1],harr[10]={0,0,0,0,0,0,0,0,0,0};
@@ -24,6 +23,10 @@ int main()
 		}
 		printf("\n");
 	}
+}
+int main()
+{
+	fun();
 	
 	return 0;
 }
