@@ -17,5 +17,7 @@
     ./<outputname>
 
 
-
+ #### to perform the 2 command at a same time use this : compile and run
+ 
+    gcc <filename.c> -o <outputname> && ./<outputname>
 
