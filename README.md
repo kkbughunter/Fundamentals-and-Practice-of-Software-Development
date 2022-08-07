@@ -16,9 +16,13 @@
     gcc <filename.c> -o <outputname> && ./<outputname>
 
 ## C Program
-1)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1)
-2)  Writing Algorithm
-3)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/C_Assignment_2)
-4)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1)
-5)  [Assaignment 3](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/C_Assignment_3)
-6)  [Test 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-2)
+01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1)
+02)  Writing Algorithm
+03)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-2)
+04)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1)
+05)  [Assaignment 3](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-3)
+06)  [Test 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-2)
+07)  [Assaignment 4](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-4)
+
+09)  [Assaignment 5](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-5)
+10)  [Assaignment 6](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-5)
