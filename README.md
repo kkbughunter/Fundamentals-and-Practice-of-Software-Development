@@ -16,26 +16,26 @@
     gcc <filename.c> -o <outputname> && ./<outputname>
 
 ## C Program Assignment & Test
-01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1)A1: Algorithm Writing
+01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1) A1: Algorithm Writing
 02)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1) on A1.
-03)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-2)A2: Practicing Programming Constructs of C
+03)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-2) A2: Practicing Programming Constructs of C
 04)  [Test 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-2) on A2.
-05)  [Assaignment 3](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-3)A3: Modular Programming with C
+05)  [Assaignment 3](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-3) A3: Modular Programming with C
 06)  [Test 3](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-3) on A3.
-07)  [Assaignment 4](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-4)A4: Handling Arrays in C
+07)  [Assaignment 4](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-4) A4: Handling Arrays in C
 08)  [Test 4](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-4) on A4.
-09)  [Assaignment 5](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-5)A5: Strings in C
+09)  [Assaignment 5](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-5) A5: Strings in C
 10)  [Test 5](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-5) on A5.
-11)  [Assaignment 6](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-6)A6: User Defined Data Types in C
+11)  [Assaignment 6](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-6) A6: User Defined Data Types in C
 12)  [Test 6](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-6) on A6.
-13)  [Assaignment 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-7)A7: File handling in C
+13)  [Assaignment 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-7) A7: File handling in C
 14)  NO Test on A7.
-15)  [Assaignment 8](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-8)A8: Pointers in C
+15)  [Assaignment 8](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-8) A8: Pointers in C
 16)  [Test 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-7) on A8.
 
 ## Mini Project in C
-01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) Roulette Game
-02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202)String Computer
+01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
+02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
 
 ## PROJECT (Exam Time Tabling in a University)
 #### Problem Definition:
