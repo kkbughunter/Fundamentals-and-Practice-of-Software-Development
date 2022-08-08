@@ -11,14 +11,14 @@ int main ()
 	res=frequency(line,str);
 	printf("%d",res);
 	
-	
+    
 }
 int frequency(char line[],char str[])
 {
 	int i, j, k, count,pcount=0, len, *countot, len1;
 	countot=&pcount ;
-	
-	
+    
+
 	len1=strlen(str);
 	len=strlen(line);
 	
@@ -36,12 +36,12 @@ int frequency(char line[],char str[])
 			for(k=0;k<len1;k++)
 			{
 				if(*(str+k) !=*(line+i+k) )
-					break;
+				break;
 				else if(k+1==len1)
-					*countot+=1;
+				*countot+=1;
 			}
 		}
-		i+=count;
-	}
+	i+=count;
+     }
 	return *countot;
 }
