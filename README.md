@@ -52,4 +52,5 @@ capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.</b
    • Each room has multiple features, such room size</br>
    • Each exam has a set of required features including the number of students attending it</br>
    • Rooms can only accommodate exams if they have enough seats to fit all the attending students and have at least all the features required for the exam.</br>
+  :)                                                  Thank you  
    -----
