@@ -15,7 +15,7 @@
  
     gcc <filename.c> -o <outputname> && ./<outputname>
 
-## C Program
+## C Program Assignment & Test
 01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1)A1: Algorithm Writing
 02)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1) on A1.
 03)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-2)A2: Practicing Programming Constructs of C
