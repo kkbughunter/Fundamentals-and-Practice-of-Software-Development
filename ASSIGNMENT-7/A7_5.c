@@ -1,91 +1,214 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-int replaceword(char line[],char str[], char replacest[]);
-void main()
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define MAX 20
+
+void Write_File(FILE *fptr);
+void Read_File(FILE *fptr);
+void Read_Line(FILE *fptr,int N);
+void Write_n_Lines(FILE *fptr,int n);
+void Delete_n_Lines(FILE *fprt,char file[],int n);
+
+int main()
 {
-	FILE*fptr1,*fptr2;
-	char line[500],replace[20],key[20];
-	int result;
-	printf("enter text : ");
-	gets(line);
-	if((fptr1=fopen("orginal_text.txt","w"))==NULL)
-	{
-		printf("error in opening file");
-		exit(0);
-	}
-	fprintf(fptr1,"%s",line);
-	fclose(fptr1);
-	printf("key word : ");
-	scanf("%s",key);
-	printf("enter replace word");
-	scanf("%s",replace);
-	result=replaceword(line,key,replace);
-	fptr2=fopen("new_file.txt","w");
-	if(result==0)
-	{printf("no occurane");
-		fprintf(fptr2,"%s",line);   
-	}
-	else
-	{printf("%s   is the replaced txet",line );
-		fprintf(fptr2,"%s",line);
-		printf("\n\nand replaced text is stored in [new_file.txt]\n");
-	}
-	fclose(fptr2); 
-	
+FILE *fptr;
+char ans;
+int choice,n,N;
+char file[MAX];
+ans='Y';
+while (ans=='y' || ans=='Y')
+{
+printf("The operations with the file are:\n");
+printf("1.Write contents into file.\n2.Read contents of file.\n3.Read a particular line.\n4.Write n lines into the file.\n5.Delete n lines from file.\n6.Save and Exit.\n");
+printf("Enter your choice:");
+scanf("%d",&choice);
+switch (choice)
+{
+case 1:
+{
+printf("Enter the filename :\n");
+scanf("%s",file);
+fptr=fopen(file,"a");
+Write_File(fptr);
+fclose(fptr);
+break;
+}
+case 2:
+{
+printf("Enter the filename :\n");
+scanf("%s",file);
+fptr=fopen(file,"r");
+Read_File(fptr);
+fclose(fptr);
+break;
+}
+case 3:
+{
+printf("Enter the filename :\n");
+scanf("%s",file);
+printf("Enter the line number to be read from the file:");
+scanf("%d",&N);
+fptr=fopen(file,"r");
+Read_Line(fptr,N);
+fclose(fptr);
+break;
+}
+case 4:
+{
+printf("Enter the filename :\n");
+scanf("%s",file);
+printf("Enter number of lines to be entered:");
+scanf("%d",&n);
+fptr=fopen(file,"a");
+Write_n_Lines(fptr,n);
+fclose(fptr);
+break;
+}
+case 5:
+{
+printf("Enter the filename :\n");
+scanf("%s",file);
+printf("Enter number of lines to be deleted:");
+scanf("%d",&n);
+fptr=fopen(file,"r");
+Delete_n_Lines(fptr,file,n);
+fclose(fptr);
+break;
+}
+case 6:
+{
+exit(-1);
+}
+default:
+{
+printf("Invalid choice entered. Enter 1-5:\n");
+}
+}
+printf("Enter y/n to continue file operations or stop:");
+scanf(" %c",&ans);
+}
+return 0;
 }
 
-int replaceword(char line[],char str[], char replacest[])
+void Write_File(FILE *fptr)
 {
-	int i, j, k, count, countot=0, len, len1, l,len2, m;
-	len2=strlen(replacest);
-	len1=strlen(str);
-	len=strlen(line);
-	
-	for(i=0;i<len;i++)
-	{
-		j=i;
-		count=0;
-		while(line[j]!=' '&&line[j]!='\0' )
-		{
-			++count;
-			++j;
-		}
-		if(len1==count)
-		{
-			for(k=0;k<len1;k++)
-			{
-				if(str[k]!=line[i+k])
-					break;
-				else if(k+1==len1)
-				{ countot+=1;
-					if(len1>len2)
-					{
-						for(l=0;l<len2;l++)
-							line[i+l]=replacest[l];
-						for(m=i+len2;m<len;m++)
-							line[m]=line[m+len1-len2];
-						
-						
-					}
-					else if(len1<len2)
-					{
-						for(l=len+(len2-len1);l>i+len1;l--)
-							line[l]=line[l-(len2-len1)];
-						for(m=0;m<len2;m++)
-							line[i+m]=replacest[m];
-						
-					}
-					else
-						for(l=0;l<len1;l++)
-							line[i+l]=replacest[l];
-						
-				}
-			}
-		}
-		i+=count;} 
-		if(countot==0)
-			return countot;
-		
-		
+char *line;
+line=(char*)malloc(80*sizeof(char));
+if (fptr == NULL)
+{
+printf("Error in opening the file \n");
+}
+else
+{
+printf("Enter the lines to be entered into the file(Press END to stop:\n");
+gets(line);
+while (strcmp(line,"END")!=0)
+{
+fprintf(fptr,"%s\n",line);
+gets(line);
+}
+}
+printf("Written succesfully into the file.\n");
+return;
+}
+
+void Read_File(FILE *fptr)
+{
+if (fptr == NULL)
+{
+printf("Error in opening the file \n");
+}
+else
+{
+char line[1000];
+printf("The contents of the file are:\n");
+while (fgets(line,1000,fptr) != NULL)
+{
+printf("%s\n",line);
+}
+}
+return;
+}
+
+void Read_Line(FILE *fptr,int N)
+{
+if (fptr == NULL)
+{
+printf("Error in opening the file \n");
+}
+else
+{
+int i=1;
+char line[1000];
+while (N<=0)
+{
+printf("Invalid line number entered.Please enter again:\n");
+scanf("%d",&N);
+}
+while (fgets(line,1000,fptr) != NULL)
+{
+if (i==N)
+{
+printf("%s",line);
+return;
+}
+i++;
+}
+printf("The line number %d not available.\n",N);
+}
+return;
+}
+
+void Write_n_Lines(FILE *fptr,int n)
+{
+char line[1024];
+int i=0;
+if (fptr == NULL)
+{
+printf("Error in opening the file \n");
+}
+else
+{
+while (n<=0)
+{
+printf("Invalid number of lines entered.Please enter again:\n");
+scanf("%d",&n);
+}
+printf("Enter the lines to be entered into the file :\n");
+for(i=0;i<=n;i++)
+{
+gets(line);
+fprintf(fptr,"%s\n",line);
+}
+}
+printf("Written succesfully into the file.\n");
+return;
+}
+
+void Delete_n_Lines(FILE *fptr,char file[],int n)
+{
+int i=0;
+char line[1024],content[1024*MAX]="";
+if (fptr == NULL)
+{
+printf("Error in opening the file \n");
+}
+else
+{
+while (n<=0)
+{
+printf("Invalid number of lines entered.Please enter again:\n");
+scanf("%d",&n);
+}
+while (fgets(line,1024,fptr) != NULL)
+{
+if (i>=n) strncat(content,line,strlen(line));
+i++;
+}
+fclose(fptr);
+fptr=fopen(file,"w");
+fprintf(fptr,"%s",content);
+fclose(fptr);
+printf("The lines are delelted.\n");
+}
 }
