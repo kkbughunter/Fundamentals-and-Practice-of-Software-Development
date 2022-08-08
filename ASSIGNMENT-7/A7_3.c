@@ -1,41 +1,47 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-void main(int *argc,char *argv[])
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#define MAX 20
+
+void Change_Vowel(FILE *fptr);
+
+int main()
 {
-	FILE *fptr1,*fptr2; 
-	char c;
-	char text[200];
-	fptr1=fopen(argv[1],"w");
-	if(fptr1==NULL)
+	FILE *fptr;
+	char file[10];
+	printf("Enter the file name:");
+	scanf("%s",file);
+	fptr = fopen(file, "r+");
+	if (fptr == NULL)
 	{
-		printf("error in opening file");
-		exit(0);
+		printf("Error in opening the file \n");
+		exit(-1);
 	}
-	
 	else
-		do{printf("enter text");
-			gets(text);
-			if(strcmp(text,"END")!=0)
-				fprintf(fptr1,"%s",text);
-			fprintf(fptr1,"\n");
-			
-			
-		}while(strcmp(text,"END")!=0);
-	fclose(fptr1);
-	fptr1=fopen(argv[1],"r");
-	fptr2=fopen(argv[2],"w");
-	while((c=getc(fptr1))!=EOF)
 	{
-		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
-		{  fprintf(fptr2,"z");
-			printf("z");
-		}
-		else
-		{fprintf(fptr2,"%c",c);
-			printf("%C",c);
-		}
+	    Change_Vowel(fptr);
 	}
-	
-	
+  return 0;
+}
+
+void Change_Vowel(FILE *fptr)
+{
+  char ch,c='z';
+  char content[1024*MAX];
+  int i=0;
+	while ((ch=fgetc(fptr)) != EOF)
+	{
+	    
+    	if ((ch=='a')||(ch=='e')||(ch=='i')||(ch=='o')||(ch=='u')||(ch=='A')||(ch=='E')||(ch=='I')||(ch=='O')||(ch=='U'))
+    	{
+    	    strncat(content,&c,1);
+    	}
+    	else strncat(content,&ch,1);
+	}
+	fseek(fptr,0,SEEK_SET);
+	fprintf(fptr,"%s\n",content);
+	fprintf(stdout,"%s",content);
+	fclose(fptr);
+  return;
 }
