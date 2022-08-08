@@ -33,11 +33,11 @@
 15)  [Assaignment 8](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-8) A8: Pointers in C
 16)  [Test 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-7) on A8.
 
-## Mini Project in C
+## Mini Project in C :star:
 01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
 02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
 -----
-## PROJECT (Exam Time Tabling in a University)
+## PROJECT (Exam Time Tabling in a University) :golf:
 #### Problem Definition:
    Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
 limited number of ordered timeslots (time periods) T = t1, t2, ... tt and rooms of certain
@@ -53,5 +53,5 @@ capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.</b
    • Each exam has a set of required features including the number of students attending it</br>
    • Rooms can only accommodate exams if they have enough seats to fit all the attending students and have at least all the features required for the exam.</br>
    
-:blush: *Tabspace**Tabspace**Tabspace**Tabspace*Thank you  
+:blush:  ......... Thank you .........
    -----
