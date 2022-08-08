@@ -14,7 +14,7 @@
  #### to perform the 2 command at a same time use this : compile and run
  
     gcc <filename.c> -o <outputname> && ./<outputname>
-
+-----
 ##  » C Program Assignment & Test :2nd_place_medal:
 01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1) A1: Algorithm Writing
 02)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1) on A1.
@@ -32,7 +32,7 @@
 14)  NO Test on A7.
 15)  [Assaignment 8](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-8) A8: Pointers in C
 16)  [Test 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-7) on A8.
-
+-----
 ##  » Mini Project in C :1st_place_medal: :star: 
 01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
 02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
