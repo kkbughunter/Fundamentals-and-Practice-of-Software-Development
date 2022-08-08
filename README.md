@@ -34,8 +34,8 @@
 16)  [Test 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-7) on A8.
 
 ## Mini Project in C
-01) [Mini Project 1]()Roulette Game
-02) [Mini Project 2]()String Computer
+01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) Roulette Game
+02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202)String Computer
 
 ## PROJECT (Exam Time Tabling in a University)
 #### Problem Definition:
