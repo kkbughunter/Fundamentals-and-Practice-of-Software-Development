@@ -15,7 +15,7 @@
  
     gcc <filename.c> -o <outputname> && ./<outputname>
 
-##  » C Program Assignment & Test
+##  » C Program Assignment & Test :2nd_place_medal:
 01)  [Assignment 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-1) A1: Algorithm Writing
 02)  [Test 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-1) on A1.
 03)  [Assignment 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-2) A2: Practicing Programming Constructs of C
@@ -33,11 +33,11 @@
 15)  [Assaignment 8](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/ASSIGNMENT-8) A8: Pointers in C
 16)  [Test 7](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Test-7) on A8.
 
-##  » Mini Project in C :star:
+##  » Mini Project in C :1st_place_medal: :star: 
 01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
 02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
 -----
-##  » PROJECT (Exam Time Tabling in a University) :golf:
+##  » PROJECT (Exam Time Tabling in a University) :trophy: :sparkles:
 #### Problem Definition:
    Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
 limited number of ordered timeslots (time periods) T = t1, t2, ... tt and rooms of certain
