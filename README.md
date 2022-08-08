@@ -36,7 +36,7 @@
 ## Mini Project in C
 01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
 02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
-
+# -----------------------------------------------------------------------------------------------------------------------------------
 ## PROJECT (Exam Time Tabling in a University)
 #### Problem Definition:
    Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
