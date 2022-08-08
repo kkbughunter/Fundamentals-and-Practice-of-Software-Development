@@ -37,7 +37,6 @@
 01) [Mini Project 1](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%201) String Computer
 02) [Mini Project 2](https://github.com/KKBUGHUNTER/UCS2201---Fundamentals-and-Practice-of-Software-Development-Codes/tree/main/Mini%20Project%202) Roulette Game
 -----
------
 ## PROJECT (Exam Time Tabling in a University)
 #### Problem Definition:
    Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
@@ -53,3 +52,4 @@ capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.</b
    • Each room has multiple features, such room size</br>
    • Each exam has a set of required features including the number of students attending it</br>
    • Rooms can only accommodate exams if they have enough seats to fit all the attending students and have at least all the features required for the exam.</br>
+   -----
