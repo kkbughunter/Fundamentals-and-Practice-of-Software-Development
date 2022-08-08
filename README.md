@@ -38,19 +38,17 @@
 02) [Mini Project 2]()String Computer
 
 ## PROJECT (Exam Time Tabling in a University)
-
 #### Problem Definition:
-Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
+   Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a
 limited number of ordered timeslots (time periods) T = t1, t2, ... tt and rooms of certain
 capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.</br>
-##### Sample Constraints:</br>
-• students should not be required to write two exams at the same time.</br>
-• The examinations must be well spaced over the timetable</br>
-• Examinations with a large number of students must be scheduled early in the examination timetable.</br>
-• Some examinations may have to be scheduled simultaneously or after other exams</br>
-• The number of students writing examinations in a particular venue and session must not exceed the capacity of the venue.</br>
-• Each student has a schedule of exams he/she must attend</br>
-• Each room has multiple features, such room size</br>
-• Each exam has a set of required features including the number of students attending it</br>
-• Rooms can only accommodate exams if they have enough seats to fit all the</br>
-attending students and have at least all the features required for the exam.</br>
+##### Sample Constraints:
+   • students should not be required to write two exams at the same time.</br>
+   • The examinations must be well spaced over the timetable</br>
+   • Examinations with a large number of students must be scheduled early in the examination timetable.</br>
+   • Some examinations may have to be scheduled simultaneously or after other exams</br>
+   • The number of students writing examinations in a particular venue and session must not exceed the capacity of the venue.</br>
+   • Each student has a schedule of exams he/she must attend</br>
+   • Each room has multiple features, such room size</br>
+   • Each exam has a set of required features including the number of students attending it</br>
+   • Rooms can only accommodate exams if they have enough seats to fit all the attending students and have at least all the features required for the exam.</br>
