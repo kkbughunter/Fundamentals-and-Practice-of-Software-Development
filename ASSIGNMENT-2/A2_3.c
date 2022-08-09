@@ -1,3 +1,4 @@
+//3) Modify (1) to set a flag to 1 if number is odd; 0 if even (Use conditional operator)
 #include<stdio.h>
 int main()
 {
