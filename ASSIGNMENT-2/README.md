@@ -18,7 +18,7 @@
  PF = 10% of BP<br>
  Gross Pay = BP + DA + HRA + CCA<br>
  Deductions = Insurance + PF<br>
- Net Pay = Gross Pay – Deductions
+ Net Pay = Gross Pay – Deductions<br>
 ![image](https://user-images.githubusercontent.com/91019132/183716043-d9c1cc4e-587b-4ec5-a8c1-73daae982433.png)
 -----
 ### 5) Modify (4) to set HRA based on type city which is input (Metro 10%; Corporation 8%; Taluk 5%); to set CCA based on designation (Worker (W) 1000; Engineer (E) 2000; Manager (M) 5000) (Use switch / nested if)
