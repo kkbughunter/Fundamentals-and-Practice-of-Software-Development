@@ -17,7 +17,7 @@ int main()
 {
 	float num=1;
 	printf("\tTo find Product of given number\n");
-	printf("To STOP give -1 #\n");
+	printf("To STOP give 0 #\n");
 	num = product(num);
 	printf("The Product of given number is : %f \n",num);
 	return 0;
