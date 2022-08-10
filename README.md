@@ -59,4 +59,5 @@ capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.</b
   ----
   -----
   
-  if you want to thank me Subscribe my Channel https://www.youtube.com/channel/UCw7ZZVvs3oDBSy-tWSR-GmQ 😂😂😂
+  if you want to thank me Subscribe my Channel [![image](https://user-images.githubusercontent.com/91019132/183891780-d7ab028f-825b-499a-a76a-b4abce1506e2.png)
+](https://www.youtube.com/channel/UCw7ZZVvs3oDBSy-tWSR-GmQ)
