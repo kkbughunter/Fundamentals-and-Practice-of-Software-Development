@@ -1,0 +1,7 @@
+An error that is common for some writers is a expater words
+
+Eg:
+  at least an word must be entered
+  entered to computer tha average.
+
+write the C function to delete the repeted word and returen the index.
