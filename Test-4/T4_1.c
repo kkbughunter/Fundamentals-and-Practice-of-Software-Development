@@ -25,13 +25,13 @@ int Repeated_word(char *str){
     }
     
     for(i=0;i<count;i++){
-        printf("%s\n",array[i]);
+        printf("%s",array[i]);
     }
     
     for(i=0;i<count;i++){
         j=i+1;
         if(strcmp(array[i],array[j])==0){
-            printf("The repeating word is\n");
+            printf("\n\nThe repeating word is\n");
             printf("%s\n",array[i]);
             break;
         }
