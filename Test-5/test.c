@@ -1,33 +1,39 @@
+#include<stdio.h>
 
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-    char str1[100];
-    char str[10][10]; 
-    int i,j,ctr;
+struct complex{
+   float real;
+   float imaginary;
+};
 
-    printf(" Input  a string : ");
-    gets(str1);	
- 
-    j=0; ctr=0;
-    for(i=0;i<=(strlen(str1));i++)
-    {
-        if(str1[i]==' '||str1[i]=='\0')
-        {
-            str[ctr][j]='\0';
-            ctr++; 
-            j=0; 
-        }
-        else
-        {
-            str[ctr][j]=str1[i];
-            j++;
-        }
-    }
-    for(i=0;i < ctr;i++){
-    	 if(strcmp(str[i],str[i+1])==0)
-    	 	printf(" %10s --> %d \n",str[i],i+1);
-    }
+struct complex Add(struct complex c1,struct complex c2){
+
+   struct complex sum;
+   sum.real=c1.real+c2.real;
+   sum.imaginary=c1.imaginary+c2.imaginary;
+   return sum;
+}
+
+int main(){
+    
+   struct complex c1;
+   struct complex c2;
+   struct complex sum;
+    
+   printf("Enter a real part: ");
+   scanf("%f",&c1.real); 
+   printf("Enter a imaginary part: ");
+   scanf("%f",&c1.imaginary);
+
+   printf("Enter a real part: ");
+   scanf("%f",&c2.real);
+   printf("Enter a real part: ");
+   scanf("%f",&c2.imaginary);
+
+   sum=Add(c1,c2);
+    
+    printf("The complex number c1 is %.2f +i %.2f\n",c1.real,c1.imaginary);
+    printf("The complex number c2 is %.2f +i %.2f\n",c2.real,c2.imaginary);
+    printf("The sum of two complex number is %.2f +i %.2f\n",sum.real,sum.imaginary);
+    
     return 0;
 }
