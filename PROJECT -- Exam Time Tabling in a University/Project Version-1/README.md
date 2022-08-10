@@ -34,6 +34,7 @@ Staff data<br>
 ### Output <br>
 Generate time table for students as well as for invigilators<br>
 <br>
+
 ----
 ### TECHNIQUE / IDEA TO SOLVE THE PROBLEM<br>
 - Getting sequence of input from the user or from a file.<br>
@@ -43,4 +44,12 @@ Generate time table for students as well as for invigilators<br>
 - SLT-modifying algorithm is used to add , delete and update the data.<br>
 - Using formatting and arranging methods improving user interface(input and output).<br>
 - Printing the university exam time table as the output.<br>
+
+
+# Sample Input
+![image](https://user-images.githubusercontent.com/91019132/183908458-f33bfe27-1c10-4141-8288-e8549c9fef6d.png)
+
+# Sample Output
+![image](https://user-images.githubusercontent.com/91019132/183908151-3618edb2-1381-41ed-a4a3-fb5412ddb67a.png)
+
 
