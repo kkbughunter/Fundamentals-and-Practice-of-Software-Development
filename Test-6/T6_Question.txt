@@ -1,0 +1,1 @@
+Write a C function that takes two string and insert second string at the first ,at given position.
