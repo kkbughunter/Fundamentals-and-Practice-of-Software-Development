@@ -56,6 +56,7 @@ Generate time table for students as well as for invigilators<br>
 
 ## Version 1 Not include bellow :
 - Date
-- Arrears<br>
+- Arrears
+- output is store in file<br>
 This may fix in Nest version-2.
 -----
