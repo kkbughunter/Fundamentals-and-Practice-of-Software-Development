@@ -2,8 +2,7 @@
 ----
 ## Exam Time Tabling in a University
 ### Problem Definition:
-Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a<br>
-limited number of ordered timeslots (time periods) T = t1, t2, ... tt and rooms of certain<br>
+Exam time tabling problems is defined as assigning a set of exams E = e1, e2, ... ee into a limited number of ordered timeslots (time periods) T = t1, t2, ... tt and rooms of certain
 capacity in each timeslot C = C1, C2, ...Ct, subject to a set of constraints.<br>
 Sample Constraints:<br>
 - students should not be required to write two exams at the same time.<br>
