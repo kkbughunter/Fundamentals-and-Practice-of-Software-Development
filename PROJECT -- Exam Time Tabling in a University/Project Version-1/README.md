@@ -54,8 +54,9 @@ Generate time table for students as well as for invigilators<br>
 
 -----
 -----
+
 ## Version 1 not include bellow :
 - Date
-- Arrears
+- Arrears<br>
 This may fis in Nest version-2.
 -----
