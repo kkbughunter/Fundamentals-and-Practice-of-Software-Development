@@ -53,10 +53,3 @@ Generate time table for students as well as for invigilators<br>
 
 -----
 -----
-
-## Version 1 Not include bellow :
-- Date , sunday no exam.
-- Arrears
-- output is store in file<br>
-This may fix in Nest version-2.
------
