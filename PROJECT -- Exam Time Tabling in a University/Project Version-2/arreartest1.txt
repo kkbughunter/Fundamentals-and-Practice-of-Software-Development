@@ -1,3 +1,0 @@
-course1,course2,course3, ..... , courseN.
-studentcount1,studentcount2,studentcount3,......., studentcountN.
-UEN5555,UMA4444,UCY3333,UGE2177,UGE2197,UGC2197, 

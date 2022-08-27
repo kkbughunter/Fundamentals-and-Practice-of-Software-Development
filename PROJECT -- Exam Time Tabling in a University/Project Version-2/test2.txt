@@ -1,9 +1,0 @@
-Dept,sub1,sub2,..,subn,student_count -> eg: cse,maths,bee,ds,50 
-room and staff count first and last mid we want to give all info.
-CSE,maths,beee,evs,english,c,50
-IT,maths,beee,evs,python,dataStr,50
-ECE,maths,beee,evs,english,circuit,50
-BME,maths,beee,sensors,english,physics,50
-EEE,maths,beee,evs,english,circuit,50
-10,LH-1,LH-2,LH-3,LH-4,LH-5,LH-6,LH-7,LH-8,LH-9,LH-10,10
-10,ram,som,sam,karthik,nithi,anbu,iray,rahul,don,ali,10
