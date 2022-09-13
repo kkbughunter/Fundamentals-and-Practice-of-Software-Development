@@ -15,7 +15,7 @@ int main() {
          
     }
     for(row=1; row<n; row++){
-        for(col=0; col<=n-1-row; col++){
+        for(col=0; col<n-row; col++){
           printf(" ");
         }
         for(col=0; col<row+1; col++){
