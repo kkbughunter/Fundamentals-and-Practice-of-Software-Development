@@ -14,7 +14,10 @@
 3. Print N term from particuar term
 4. Find 3 consecutive number using its sum & product.
 5. Find 3 consecutive number using its sum & sum of squares.
+        
+        ./output [your option]
 
-      ./output [your option]
 
+# Thank You...
 
+----
