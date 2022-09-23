@@ -1,4 +1,4 @@
-#  » Fundamentals and Practice of Software Development code
+#  » UCS2201 Fundamentals and Practice of Software Development code -- Second Sem
 ---
 ### Run C program in terminal (command)
 
