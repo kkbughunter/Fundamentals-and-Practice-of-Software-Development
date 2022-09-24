@@ -1,4 +1,4 @@
-#  » UCS2201 Fundamentals and Practice of Software Development code -- Second Sem
+# UCS2201 Fundamentals and Practice of Software Development code -- Second Sem
 ---
 ### Run C program in terminal (command)
 
@@ -35,7 +35,7 @@
 -----
 
 
-## Application :pen:
+## » Application :pen:
 
 1. [Application-1](https://github.com/KKBUGHUNTER/Fundamentals-and-Practice-of-Software-Development/tree/main/Application-1%20Arithmetic%20Progression) Arithmetic Progression
 2. [Application-2](https://github.com/KKBUGHUNTER/Fundamentals-and-Practice-of-Software-Development/tree/main/Application-2%20Store_Item_Master) Store Item Master
