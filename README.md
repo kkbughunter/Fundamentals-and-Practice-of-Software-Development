@@ -36,7 +36,8 @@
 
 
 ## Application :pen:
-[](https://github.com/KKBUGHUNTER/Fundamentals-and-Practice-of-Software-Development/tree/main/Application-1%20Arithmetic%20Progression)
+[Arithmetic Progression](https://github.com/KKBUGHUNTER/Fundamentals-and-Practice-of-Software-Development/tree/main/Application-1%20Arithmetic%20Progression)
+[Store Item Master](https://github.com/KKBUGHUNTER/Fundamentals-and-Practice-of-Software-Development/tree/main/Application-2%20Store_Item_Master)
 ----
 
 
